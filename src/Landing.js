@@ -4,6 +4,7 @@ import Video from "./containers/Video.js";
 import About from "./containers/About.js";
 import Stack from "./containers/Stack.js";
 import Projects from "./containers/Projects.js";
+import Contact from "./containers/Contact.js";
 import Footer from "./containers/Footer.js";
 import "./Landing.css";
 
@@ -16,6 +17,7 @@ class Landing extends Component {
         <About />
         <Stack />
         <Projects />
+        <Contact />
         <Footer />
       </div>
     );
