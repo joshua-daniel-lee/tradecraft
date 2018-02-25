@@ -6,11 +6,7 @@ class Video extends Component {
   }
 
   render() {
-    return (
-      <div className="video">
-        <h1>Video</h1>
-      </div>
-    );
+    return <div className="video" />;
   }
 }
 
