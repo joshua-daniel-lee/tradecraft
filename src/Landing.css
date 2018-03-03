@@ -1,54 +1,55 @@
-/* Application Styles */
+/* BASIC LAYOUT AND SIZING OF THE LANDING PAGE */
 
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(7, 1fr);
   grid-gap: 0.5rem;
-  height: 100vh;
 }
 
 .header {
   grid-column: 1 / 4;
-  grid-row: 1;
+  border: solid black;
+  height: 3rem;
 }
 
 .video {
   grid-column: 1 / 4;
   grid-row: 2;
-  background-color: white;
-  box-shadow: 0 10px 6px -6px #bdbdbd;
+  border: solid black;
+  height: 100vh;
 }
 
 .about {
   grid-column: 1 / 4;
   grid-row: 3;
-  background-color: white;
-  box-shadow: 0 10px 6px -6px #bdbdbd;
+  border: solid black;
+  height: 50vh;
 }
 
 .stack {
   grid-column: 1 / 4;
   grid-row: 4;
-  background-color: white;
-  box-shadow: 0 10px 6px -6px #bdbdbd;
+  border: solid black;
+  height: 10vh;
 }
 
 .projects {
   grid-column: 1 / 4;
   grid-row: 5;
-  background-color: white;
-  box-shadow: 0 10px 6px -6px #bdbdbd;
+  border: solid black;
+  height: 50vh;
 }
 
 .contact {
   grid-column: 1 / 4;
   grid-row: 6;
-  background-color: white;
-  box-shadow: 0 10px 6px -6px #bdbdbd;
+  border: solid black;
+  height: 50vh;
 }
 
 .footer {
   grid-column: 1 / 4;
   grid-row: 7;
+  border: solid black;
+  height: 5rem;
 }
