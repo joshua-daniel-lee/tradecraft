@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./About.css";
 
 class About extends Component {
   constructor() {
@@ -6,7 +7,11 @@ class About extends Component {
   }
 
   render() {
-    return <div className="about" />;
+    return (
+      <div className="about">
+        <h1>Test</h1>
+      </div>
+    );
   }
 }
 
