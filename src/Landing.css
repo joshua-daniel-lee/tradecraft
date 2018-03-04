@@ -3,54 +3,54 @@
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.5rem;
+  grid-gap: 0.3rem;
 }
 
 .header {
   grid-column: 1 / 4;
   grid-row: 1;
-  border: solid black;
-  height: 3rem;
+  background: none repeat 0 0 rgb(0, 77, 64);
+  height: 4rem;
 }
 
 .video {
   grid-column: 1 / 4;
-  grid-row: 1;
-  border: solid black;
+  grid-row: 2;
+  background-color: white;
   height: 100vh;
 }
 
 .about {
   grid-column: 1 / 4;
   grid-row: 3;
-  border: solid black;
+  background-color: white;
   height: 50vh;
 }
 
 .stack {
   grid-column: 1 / 4;
   grid-row: 4;
-  border: solid black;
+  background-color: white;
   height: 10vh;
 }
 
 .projects {
   grid-column: 1 / 4;
   grid-row: 5;
-  border: solid black;
+  background-color: white;
   height: 50vh;
 }
 
 .contact {
   grid-column: 1 / 4;
   grid-row: 6;
-  border: solid black;
+  background-color: white;
   height: 50vh;
 }
 
 .footer {
   grid-column: 1 / 4;
   grid-row: 7;
-  border: solid black;
+  background: none repeat 0 0 rgb(0, 77, 64);
   height: 5rem;
 }

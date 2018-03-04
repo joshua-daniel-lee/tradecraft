@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
-import profilePhoto from "../../assets/profilePhoto.jpg";
+// import profilePhoto from "../../assets/profilePhoto.jpg";
 
 class About extends Component {
   constructor() {
@@ -10,7 +10,7 @@ class About extends Component {
   render() {
     return (
       <div className="about">
-        <img className="profilePhoto" src={profilePhoto} />
+        {/* <img className="profilePhoto" src={} /> */}
       </div>
     );
   }
