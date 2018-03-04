@@ -8,13 +8,14 @@
 
 .header {
   grid-column: 1 / 4;
+  grid-row: 1;
   border: solid black;
   height: 3rem;
 }
 
 .video {
   grid-column: 1 / 4;
-  grid-row: 2;
+  grid-row: 1;
   border: solid black;
   height: 100vh;
 }

@@ -5,3 +5,12 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0.5rem;
 }
+
+.profilePhoto {
+  justify-self: center;
+  height: auto;
+  width: auto;
+  max-width: 25rem;
+  max-height: 25rem;
+  border-radius: 50%;
+}
