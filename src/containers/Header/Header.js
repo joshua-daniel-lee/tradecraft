@@ -10,7 +10,7 @@ class Header extends Component {
     return (
       <div className="header">
         <a href="/" className="logo">
-          TradeCraft
+          Joshua Lee
         </a>
         <a href="/" className="aboutLink" className="link">
           About

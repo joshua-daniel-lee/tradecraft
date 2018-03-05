@@ -9,6 +9,7 @@
   background-image: url("../../assets/stackIcon1.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: grey;
 }
 .stackIcon2 {
   background-image: url("../../assets/stackIcon2.png");
@@ -16,14 +17,35 @@
   background-size: contain;
 }
 .stackIcon3 {
+  background-image: url("../../assets/stackIcon3.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: gray;
 }
 .stackIcon4 {
+  background-image: url("../../assets/stackIcon4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .stackIcon5 {
+  background-image: url("../../assets/stackIcon5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: grey;
 }
 .stackIcon6 {
+  background-image: url("../../assets/stackIcon6.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .stackIcon7 {
+  background-image: url("../../assets/stackIcon7.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: grey;
 }
 .stackIcon8 {
+  background-image: url("../../assets/stackIcon8.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
