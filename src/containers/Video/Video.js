@@ -7,7 +7,12 @@ class Video extends Component {
   }
 
   render() {
-    return <div className="video" />;
+    return (
+      <div className="video">
+        <div className="callout">Joshua Lee</div>
+        <div className="imageCover" />
+      </div>
+    );
   }
 }
 

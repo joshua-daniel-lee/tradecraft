@@ -9,13 +9,13 @@
 .header {
   grid-column: 1 / 4;
   grid-row: 1;
-  background: none repeat 0 0 rgb(0, 77, 64);
+  z-index: 1;
   height: 4rem;
 }
 
 .video {
   grid-column: 1 / 4;
-  grid-row: 2;
+  grid-row: 1;
   background-color: white;
   height: 100vh;
 }
