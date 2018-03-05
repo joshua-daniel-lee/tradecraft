@@ -1,0 +1,29 @@
+/* STACk STYLES */
+
+.stack {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.stackIcon1 {
+  background-image: url("../../assets/stackIcon1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.stackIcon2 {
+  background-image: url("../../assets/stackIcon2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.stackIcon3 {
+}
+.stackIcon4 {
+}
+.stackIcon5 {
+}
+.stackIcon6 {
+}
+.stackIcon7 {
+}
+.stackIcon8 {
+}
