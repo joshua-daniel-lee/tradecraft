@@ -23,8 +23,7 @@
 .about {
   grid-column: 1 / 4;
   grid-row: 3;
-  background-color: white;
-  height: 50vh;
+  height: 75vh;
 }
 
 .stack {
@@ -51,6 +50,6 @@
 .footer {
   grid-column: 1 / 4;
   grid-row: 7;
-  background: none repeat 0 0 rgb(0, 77, 64);
+  background-color: green;
   height: 5rem;
 }

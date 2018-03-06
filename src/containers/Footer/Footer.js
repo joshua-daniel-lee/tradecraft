@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Footer.css";
 
 class Footer extends Component {
   constructor() {
@@ -6,7 +7,13 @@ class Footer extends Component {
   }
 
   render() {
-    return <div className="footer" />;
+    return (
+      <div className="footer">
+        <a href="#" />
+        <a href="#" />
+        <a href="#" />
+      </div>
+    );
   }
 }
 
