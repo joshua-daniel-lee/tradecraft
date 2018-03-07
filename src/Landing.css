@@ -20,9 +20,16 @@
   height: 100vh;
 }
 
+.checker {
+  grid-column: 1 / 4;
+  grid-row: 2;
+  height: 5vh;
+}
+
 .about {
   grid-column: 1 / 4;
   grid-row: 3;
+  background-color: white;
   height: 75vh;
 }
 
@@ -37,7 +44,7 @@
   grid-column: 1 / 4;
   grid-row: 5;
   background-color: white;
-  height: 50vh;
+  height: 75vh;
 }
 
 .contact {
