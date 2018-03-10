@@ -1,0 +1,12 @@
+/* PROJECTS STYLES */
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.projectOne {
+  height: 25px;
+  background-color: red;
+}

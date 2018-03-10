@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "./containers/Header/Header.js";
 import Video from "./containers/Video/Video.js";
-import Checker from "./containers/Checker/Checker.js";
+// import Checker from "./containers/Checker/Checker.js";
 import About from "./containers/About/About.js";
 import Stack from "./containers/Stack/Stack.js";
 import Projects from "./containers/Projects/Projects.js";
@@ -15,7 +15,7 @@ class Landing extends Component {
       <div className="container">
         <Header />
         <Video />
-        <Checker />
+        {/* <Checker /> */}
         <About />
         <Stack />
         <Projects />

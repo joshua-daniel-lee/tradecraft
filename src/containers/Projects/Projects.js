@@ -7,7 +7,19 @@ class Projects extends Component {
   }
 
   render() {
-    return <div className="projects" />;
+    return (
+      <div className="projects">
+        <div className="projectOne">
+          <div className="projectImage" />
+        </div>
+        <div className="projectTwo">
+          <div className="projectImage" />
+        </div>
+        <div className="projectThree">
+          <div className="projectImage" />
+        </div>
+      </div>
+    );
   }
 }
 

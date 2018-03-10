@@ -20,11 +20,11 @@
   height: 100vh;
 }
 
-.checker {
+/* .checker {
   grid-column: 1 / 4;
   grid-row: 2;
   height: 5vh;
-}
+} */
 
 .about {
   grid-column: 1 / 4;
@@ -37,7 +37,7 @@
   grid-column: 1 / 4;
   grid-row: 4;
   background-color: white;
-  height: 10vh;
+  height: 3vh;
 }
 
 .projects {
@@ -59,4 +59,10 @@
   grid-row: 7;
   background-color: green;
   height: 5rem;
+}
+
+@media screen and (min-width: 800px) {
+  .stack {
+    height: 10vh;
+  }
 }
