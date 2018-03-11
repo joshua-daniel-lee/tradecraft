@@ -10,13 +10,22 @@ class Projects extends Component {
     return (
       <div className="projects">
         <div className="projectOne">
-          <div className="projectImage" />
+          <div className="projectTitle">Project Title</div>
+          <div className="projectContainer">
+            <div className="projectImage" />
+          </div>
         </div>
         <div className="projectTwo">
-          <div className="projectImage" />
+          <div className="projectTitle">Project Title</div>
+          <div className="projectContainer">
+            <div className="projectImage" />
+          </div>
         </div>
         <div className="projectThree">
-          <div className="projectImage" />
+          <div className="projectTitle">Project Title</div>
+          <div className="projectContainer">
+            <div className="projectImage" />
+          </div>
         </div>
       </div>
     );

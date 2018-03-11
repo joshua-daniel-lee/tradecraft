@@ -6,15 +6,6 @@
   grid-gap: 0.5rem;
 }
 
-.link {
-  justify-self: center;
-  padding-top: 3vw;
-  font-family: "Lato", sans-serif;
-  color: white;
-  font-size: 1.5vw;
-  text-decoration-line: none;
-}
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
 @import url(https://fonts.googleapis.com/css?family=Squada+One);
 body {

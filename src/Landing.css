@@ -23,7 +23,7 @@
 /* .checker {
   grid-column: 1 / 4;
   grid-row: 2;
-  height: 5vh;
+  height: 10vh;
 } */
 
 .about {
@@ -41,6 +41,7 @@
 }
 
 .projects {
+  padding-top: 5vh;
   grid-column: 1 / 4;
   grid-row: 5;
   background-color: white;

@@ -15,9 +15,9 @@ class Landing extends Component {
       <div className="container">
         <Header />
         <Video />
-        {/* <Checker /> */}
         <About />
         <Stack />
+        {/* <Checker /> */}
         <Projects />
         <Contact />
         <Footer />
