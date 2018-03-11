@@ -25,7 +25,6 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  background-color: grey;
   opacity: 0.1;
 }
 
@@ -42,7 +41,7 @@
   align-self: center;
   z-index: 1;
   font-family: "Open Sans", sans-serif;
-  color: green;
+  color: #424242;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 4.5vw;

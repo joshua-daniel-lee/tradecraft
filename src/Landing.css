@@ -40,24 +40,31 @@
   height: 3vh;
 }
 
+.inspiration {
+  grid-column: 1 /4;
+  grid-row: 5;
+  background-color: white;
+  height: 50vh;
+}
+
 .projects {
   padding-top: 5vh;
   grid-column: 1 / 4;
-  grid-row: 5;
+  grid-row: 6;
   background-color: white;
   height: 75vh;
 }
 
 .contact {
   grid-column: 1 / 4;
-  grid-row: 6;
+  grid-row: 7;
   background-color: white;
   height: 50vh;
 }
 
 .footer {
   grid-column: 1 / 4;
-  grid-row: 7;
+  grid-row: 8;
   background-color: green;
   height: 5rem;
 }

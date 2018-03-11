@@ -4,6 +4,7 @@ import Video from "./containers/Video/Video.js";
 // import Checker from "./containers/Checker/Checker.js";
 import About from "./containers/About/About.js";
 import Stack from "./containers/Stack/Stack.js";
+import Inspiration from "./containers/Inspiration/Inspiration.js";
 import Projects from "./containers/Projects/Projects.js";
 import Contact from "./containers/Contact/Contact.js";
 import Footer from "./containers/Footer/Footer.js";
@@ -17,6 +18,7 @@ class Landing extends Component {
         <Video />
         <About />
         <Stack />
+        <Inspiration />
         {/* <Checker /> */}
         <Projects />
         <Contact />
