@@ -2,8 +2,13 @@
 
 .container {
   display: grid;
-  grid-template-columns: 2vw 1fr 1fr 1fr;
+  grid-template-columns: 3vw 1fr 1fr 1fr;
   grid-gap: 0.3rem;
+}
+
+.sideNavigation {
+  grid-column: 1 / 2;
+  grid-row: 1 / 9;
 }
 
 .header {
