@@ -22,10 +22,10 @@
 }
 
 .imageCover {
-  background-color: green;
+  background-color: grey;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 4;
-  opacity: 0.7;
+  opacity: 0.5;
 }

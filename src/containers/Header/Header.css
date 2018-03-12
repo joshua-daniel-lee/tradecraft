@@ -22,7 +22,7 @@ body {
   font-weight: 800;
   letter-spacing: -3px;
   line-height: 1;
-  text-shadow: #ededed 0.1vw 0.1vw 0;
+  /* text-shadow: #ededed 0.1vw 0.1vw 0; */
   position: relative;
 }
 .logo:after {

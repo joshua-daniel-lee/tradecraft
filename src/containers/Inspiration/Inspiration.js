@@ -9,8 +9,8 @@ class Inspiration extends Component {
   render() {
     return (
       <div className="inspiration">
-        <div className="callout" />
-        <div className="imageCover" />
+        <div className="inspirationCallout" />
+        <div className="inspirationImageCover" />
       </div>
     );
   }

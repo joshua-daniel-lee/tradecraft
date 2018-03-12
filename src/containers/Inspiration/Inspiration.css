@@ -4,28 +4,24 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  /* background-image: url("../../assets/backgroundImage.jpg"); */
+  /* background-image: url("../../assets/inspiration.mov"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.callout {
+.inspirationCallout {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
   z-index: 1;
-  opacity: 0.5;
-  background-image: url("../../assets/callout.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
-.imageCover {
-  background-color: blue;
+.inspirationImageCover {
+  background-color: black;
   grid-column-start: 1;
   grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 6;
-  opacity: 0.7;
+  opacity: 0.1;
 }
