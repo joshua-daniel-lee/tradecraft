@@ -7,13 +7,7 @@ class Footer extends Component {
   }
 
   render() {
-    return (
-      <div className="footer">
-        <a href="#" />
-        <a href="#" />
-        <a href="#" />
-      </div>
-    );
+    return <div className="footer" />;
   }
 }
 

@@ -7,13 +7,7 @@ class Header extends Component {
   }
 
   render() {
-    return (
-      <div className="header">
-        <a href="/" className="logo">
-          Joshua Lee
-        </a>
-      </div>
-    );
+    return <div className="header" />;
   }
 }
 

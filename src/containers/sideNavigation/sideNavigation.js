@@ -7,7 +7,7 @@ class SideNavigation extends Component {
   }
 
   render() {
-    return <div className="sideNavigation">test</div>;
+    return <div className="sideNavigation" />;
   }
 }
 
