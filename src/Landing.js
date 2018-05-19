@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import SideNavigation from "./containers/sideNavigation/sideNavigation.js";
 import Header from "./containers/Header/Header.js";
 import Video from "./containers/Video/Video.js";
 import Checker from "./containers/Checker/Checker.js";
@@ -15,7 +14,6 @@ class Landing extends Component {
   render() {
     return (
       <div className="container">
-        <SideNavigation />
         <Header />
         <Video />
         <About />
