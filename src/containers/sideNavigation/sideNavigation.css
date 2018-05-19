@@ -1,1 +1,6 @@
 /* SIDE NAVIGATIONS STYLES */
+
+.sideNavigation {
+  background-color: white;
+  border-style: none solid none none;
+}
